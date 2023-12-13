@@ -23,7 +23,7 @@ class ChatFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val chatFragmentViewModel =
-            ViewModelProvider(this).get(ChatFragmentViewModel::class.java)
+            ViewModelProvider(this).get(CallFragmentViewModel::class.java)
 
         _binding = FragmentGalleryBinding.inflate(inflater, container, false)
         val root: View = binding.root
